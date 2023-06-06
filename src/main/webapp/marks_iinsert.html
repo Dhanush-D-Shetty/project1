@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert Marks</title>
+
+</head>
+<body style="background-color: blue;color: white;">
+
+<feildset style=" width: 500px;" > 
+
+
+<h2 style="position: relative;left:600px">Student Marks</h2>
+
+<form action="MarksInsert" method="post"  style="display: flex;justify-content: center;">
+
+
+<table border="1px solid blue" cellpadding="10px" cellspacing="10px">
+<tr>
+<td> Register Number </td>
+<td>  <input type="number" name="reg_num" Placeholder="Register-Number" required="required" min="1111111" max="999999999" >   </td>
+</tr>
+
+<td> Student Name </td>
+<td>  <input type="text" name="std_name" Placeholder="Student-Name" required="required">   </td>
+</tr>
+
+<td> Kannada Marks </td>
+<td>  <input type="number" name="kan_int" Placeholder="Internal Marks less than 25 marks" required="required" min="0" max="25">  
+       <input type="number" name="kan_ext" Placeholder="External Marks upto 100 marks" required="required"  min="0" max="100">   </td>
+</tr>
+
+<td> English Marks </td>
+<td>  <input type="number" name="eng_int" Placeholder="Internal Marks less than 20 marks" required="required" min="0" max="20">  
+       <input type="number" name="eng_ext" Placeholder="External Marks upto 80 marks" required="required"  min="0" max="80">   </td>
+</tr>
+
+<td> Hindi Marks </td>
+<td>  <input type="number" name="hin_int" Placeholder="Internal Marks less than 20 marks" required="required" min="0" max="20">  
+       <input type="number" name="hin_ext" Placeholder="External Marks upto 80 marks" required="required"  min="0" max="80">   </td>
+</tr>
+
+<td> Maths Marks </td>
+<td>  <input type="number" name="mat_int" Placeholder="Internal Marks less than 20 marks" required="required" min="0" max="20">  
+       <input type="number" name="mat_ext" Placeholder="External Marks upto 80 marks" required="required"  min="0" max="80">   </td>
+</tr>
+
+<td> Social Marks </td>
+<td>  <input type="number" name="soc_int" Placeholder="Internal Marks less than 20 marks" required="required" min="0" max="20">  
+       <input type="number" name="soc_ext" Placeholder="External Marks upto 80 marks" required="required"  min="0" max="80">   </td>
+</tr>
+
+<td> Science Marks </td>
+<td>  <input type="number" name="sci_int" Placeholder="Internal Marks less than 20 marks" required="required" min="0" max="20">  
+       <input type="number" name="sci_ext" Placeholder="External Marks upto 80 marks" required="required" min="0" max="80">   </td>
+</tr>
+
+<tr>
+<td>   <button type="reset">Reset</button> </td>
+<td>   <button type="submit">Submit</button> </td>
+</tr>
+
+
+
+
+</table>
+
+</form>
+
+</feildset> 
+
+
+
+
+</body>
+</html>
